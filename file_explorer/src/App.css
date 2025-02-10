@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+}
+
+.folder {
+    width: 300px;
+    background-color: #ccc;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.folder  span {
+    font-size: 1rem;
+}
+
+.folderItems {
+    margin-left: 10px;
+}
