@@ -1,0 +1,29 @@
+.App {
+  width: 80%;
+}
+
+.container {
+  max-width: 40%;
+  background-color: rgb(3, 38, 39);
+  padding: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.character_length {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.checkbox_container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 10px;
+}
