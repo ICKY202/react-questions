@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+
+.progress-bar {
+  width: 500px;
+  height: 20px;
+  background-color: aliceblue;
+  border-radius: 15px;
+  position: relative;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.progress-bar span {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.progress-bar div {
+  height: 100%;
+  
+  background-color: #00b251;
+}
